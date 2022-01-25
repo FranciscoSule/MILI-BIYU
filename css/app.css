@@ -84,8 +84,9 @@ align-items: center;}
     }}
 
 
-.titulo{
+.titulo h2{
   line-height: 1.7;
+  font-weight:100
 }
 
 .navegacion-principal a{
