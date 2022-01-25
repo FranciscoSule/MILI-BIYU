@@ -9,6 +9,10 @@ html {
     box-sizing: inherit;
   }
 
+  body{
+    background-color: #453f3f;
+  }
+
   .contenedor {
     width: 95%;
     max-width: 120rem;
@@ -74,7 +78,7 @@ align-items: center;}
       left: 0;
       top: 0;
       position: fixed;
-      background-color: #fff;
+      background-color: #453f3f;
       width: 100%;
       box-shadow: 0.1rem 0.2rem 0.3rem 0.3rem #333;
     }}
@@ -85,7 +89,7 @@ align-items: center;}
     font-size: 2rem;
     text-decoration: none;
     padding: 1rem;
-    color: #000;
+    color: #fff;
     font-family: 'Raleway', sans-serif;
     
 }
@@ -115,7 +119,7 @@ align-items: center;}
         position: fixed;
         width: 100%;
         box-shadow: 0.1rem 0.2rem 0.3rem 0.3rem rgba(0, 0, 0, 0.746);
-background-color: #fff;
+background-color: #453f3f;
         display: flex;
         flex-direction: row;
         justify-content: center;
