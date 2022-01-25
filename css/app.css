@@ -1,0 +1,224 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  .contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+
+  h1{text-align: center;
+    font-size: 6rem;
+    color: #b1a18a;
+    font-family: 'Pacifico', cursive;
+    text-decoration-line:  1.5;
+    }
+
+    h2{text-align: center;
+        padding: 1rem;
+        font-size: 3.5rem;
+        font-family: 'Pacifico', cursive;
+        color: #b1a18a;
+       }
+
+
+    h3{text-align: center;
+        font-weight: bold;
+       
+        font-size: 2.5rem;
+        ;
+    }
+    
+        p{text-align: center;
+            font-weight: normal;
+            padding: 1rem;
+            font-size: 1.8rem;
+            font-family:'Istok Web', sans-serif;
+        }
+
+       img {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+        display: block;
+      }
+
+
+      a{text-decoration: none;
+    font-size: 2rem;}
+
+  
+
+      header{display: flex;
+        flex-direction: column;
+    justify-content: space-between;
+align-items: center;}
+
+@media (min-width: 768px) {
+    header{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 768px) {
+    .header.fijo {
+      left: 0;
+      top: 0;
+      position: fixed;
+      background-color: #fff;
+      width: 100%;
+      box-shadow: 0.1rem 0.2rem 0.3rem 0.3rem #333;
+    }}
+
+
+
+.navegacion-principal a{
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1rem;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+@media (min-width: 768px) {
+    .navegacion-principal{
+        flex-direction: row;
+        gap: 2rem;
+    } 
+
+
+
+    .header.fijo{flex-direction: column;}
+}
+    
+
+
+      .header.fijo {
+        left: 0;
+        top: 0;
+        position: fixed;
+        width: 100%;
+        box-shadow: 0.1rem 0.2rem 0.3rem 0.3rem rgba(0, 0, 0, 0.746);
+background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+
+
+ 
+   
+  
+      .galeria {
+          padding: 5rem 0;
+        }
+        .galeria h3 {
+          text-align: center;
+        }
+        
+        .galeria-imagenes {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 2rem;
+          
+        }
+        @media (min-width: 480px) {
+          .galeria-imagenes {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+          }
+        }
+        @media (min-width: 768px) {
+          .galeria-imagenes {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+          }
+        }
+        @media (min-width: 992px) {
+          .galeria-imagenes {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 2rem;
+          }
+        }
+  
+        body.fijar-body {
+          overflow: hidden;
+        }
+        
+  
+        .overlay { 
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          display: grid;
+          place-items: center;
+          position: fixed;
+          
+        }
+        .overlay picture {
+          display: block;
+          max-width: 80rem;
+          background-color: rgba(0, 0, 0, 0.5);
+          
+        }
+  
+  .btn-cerrar {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+      background-color: #fff;
+      color: #000;
+      display: grid;
+      place-items: center;
+      font-weight: 700;}
+
+    .btn-cerrar:hover {
+      cursor: pointer;
+    }
+
+    .contacto{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    .boton{ display: flex;
+        justify-content: center;
+        padding: 1rem 1rem;    
+        background-color: #000;
+        color: gold;
+        border-radius: 50%;
+
+    }
+
+    .boton:hover{
+        cursor: pointer;
+    }
+
+   
