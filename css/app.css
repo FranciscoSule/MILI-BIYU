@@ -84,6 +84,9 @@ align-items: center;}
     }}
 
 
+.titulo{
+  line-height: 1.7;
+}
 
 .navegacion-principal a{
     font-size: 2rem;
