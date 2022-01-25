@@ -43,7 +43,7 @@ function crearGaleria(){
    for(let i = 1; i<= 55; i++){
        const imagen = document.createElement('picture');
        imagen.innerHTML =`
-               <img loading="lazy" width="200" height="300" src="img/catalogo/${i}.jpeg" alt="galeria">`;
+               <img loading="lazy" width="200" height="300" src="img/catalogo/${i}.jpg" alt="galeria">`;
 
     imagen.onclick = function(){
         mostrarImagen(i);
@@ -56,7 +56,7 @@ function crearGaleria(){
 function mostrarImagen(id){
     const imagen = document.createElement('picture');
     imagen.innerHTML =`
-    <img loading="lazy" width="200" height="300" src="img/catalogo/${id}.jpeg" alt="galeria">`;
+    <img loading="lazy" width="200" height="300" src="img/catalogo/${id}.jpg" alt="galeria">`;
  
 //crea el overlay con la imagen
   const overlay = document.createElement('DIV');
