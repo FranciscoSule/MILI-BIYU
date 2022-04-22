@@ -40,7 +40,7 @@ function scrollNav(){
 
 function crearGaleria(){
     const galeria = document.querySelector('.galeria-imagenes')
-   for(let i = 1; i<= 96; i++){
+   for(let i = 1; i<= 127; i++){
        const imagen = document.createElement('picture');
        imagen.innerHTML =`
                <img loading="lazy" width="200" height="300" src="img/catalogo/${i}.jpg" alt="galeria">`;
